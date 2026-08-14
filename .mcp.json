@@ -1,0 +1,6 @@
+{
+  "decile": {
+    "type": "http",
+    "url": "https://mcp.decile.com/mcp"
+  }
+}

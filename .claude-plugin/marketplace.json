@@ -1,0 +1,15 @@
+{
+  "name": "decile",
+  "description": "Decile customer intelligence plugins for Claude.",
+  "owner": {
+    "name": "Decile",
+    "email": "hailey@decile.com"
+  },
+  "plugins": [
+    {
+      "name": "decile",
+      "source": "./",
+      "description": "Decile customer intelligence for Claude — connects the Decile MCP server and adds skills for customer segment profiling, order segment analysis, and US population benchmarking."
+    }
+  ]
+}
