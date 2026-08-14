@@ -1,12 +1,12 @@
 # Decile Plugin for Claude
 
-A Claude plugin that connects the [Decile](https://www.decile.com) customer intelligence MCP with Decile analysis skills.
+A Claude plugin that connects the [Decile](https://www.decile.com) customer intelligence MCP with Decile analysis skills, so teams can explore their store's performance and customers in plain language — in chat, Cowork, or anywhere else Claude runs.
 
 ## What's included
 
-**Decile MCP** — `decile`, the Decile customer intelligence MCP (`https://mcp.decile.com/mcp`). Exposes brand data, audiences, personas, `query_data`, and the Ask Luma agent. Requires OAuth authorization on first use.
+**Decile MCP** — the Decile connector (`https://mcp.decile.com/mcp`). Decile is an ecommerce customer intelligence platform; the connector puts analyst-level insights and recommendations in the hands of your team. Ask about revenue, orders, units, AOV, and profit; product and category performance; customer acquisition, retention, cohorts, and subscriptions. Deep dive into market basket analysis or sequential purchase flows, describe a group of customers to profile how they differ from your base, and save that group to your Decile account as a segment for reuse and activation. Requires authorizing with your Decile account on first use.
 
-**Skills**
+**Skills** — guided workflows Claude uses automatically when a question matches:
 
 | Skill | Use it for |
 |---|---|
@@ -16,24 +16,21 @@ A Claude plugin that connects the [Decile](https://www.decile.com) customer inte
 
 ## Installation
 
-Add this repo as a plugin marketplace, then install the plugin:
+Install the Decile plugin from the Claude plugin directory (in Claude, browse the plugin directory and add **Decile**). On first use, Claude will prompt you to authorize the connection with your Decile account.
 
-```bash
-claude plugin marketplace add <repo-url-or-local-path>
-```
+Once installed, just ask questions in chat or Cowork — no setup beyond authorization. For example:
 
-```bash
-claude plugin install decile@decile
-```
-
-On first use of a Decile tool, Claude Code will prompt you to authorize the MCP server via OAuth (`/mcp` in an interactive session).
+- "How did revenue and AOV trend last quarter?"
+- "Who are our VIP customers, and how do they differ from everyone else?"
+- "What share of our orders used a discount?"
+- "How do our customers compare to the average American?"
 
 ## Layout
 
 ```
 .claude-plugin/
   plugin.json        # plugin manifest
-  marketplace.json   # makes this repo directly installable as a marketplace
+  marketplace.json   # marketplace listing metadata
 .mcp.json            # Decile MCP server definition
 skills/
   customer-segments/SKILL.md
