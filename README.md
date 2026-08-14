@@ -1,17 +1,17 @@
 # Decile Plugin for Claude
 
-A Claude Code plugin that connects the [Decile](https://www.decile.com) customer intelligence MCP server and packages the Decile analysis skills.
+A Claude plugin that connects the [Decile](https://www.decile.com) customer intelligence MCP with Decile analysis skills.
 
 ## What's included
 
-**MCP server** — `decile`, the Decile customer intelligence MCP (`https://mcp.decile.com/mcp`). Exposes brand data, audiences, personas, `query_data`, and the Ask Luma agent. Requires OAuth authorization on first use.
+**Decile MCP** — `decile`, the Decile customer intelligence MCP (`https://mcp.decile.com/mcp`). Exposes brand data, audiences, personas, `query_data`, and the Ask Luma agent. Requires OAuth authorization on first use.
 
 **Skills**
 
 | Skill | Use it for |
 |---|---|
-| [customer-segments](skills/customer-segments/SKILL.md) | Persona-style profiles of customer cohorts ("who are our VIP customers?"), with standard segment definitions and a required comparison against the full customer base. |
-| [order-segments](skills/order-segments/SKILL.md) | Analysis where the unit is an order, not a person — discount share, subscription vs one-time mix, first vs repeat orders, and which orders to exclude as non-revenue noise. |
+| [customer-segments](skills/customer-segments/SKILL.md) | In-depth profiles of customer cohorts ("who are our VIP customers?"), with standard segment definitions and comparison against the full customer base. |
+| [order-segments](skills/order-segments/SKILL.md) | Order-level analysis where the unit is an order — discount share, subscription vs one-time mix, first vs repeat orders, and which orders to exclude as non-revenue noise. |
 | [us-population-comparison](skills/us-population-comparison/SKILL.md) | Benchmarking customer demographics and interests against US population distributions — over/under-indexing for audience insight and ad targeting. |
 
 ## Installation
