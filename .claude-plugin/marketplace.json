@@ -9,7 +9,7 @@
     {
       "name": "decile",
       "source": "./",
-      "description": "Decile customer intelligence for Claude — connects the Decile MCP server and adds skills for customer segment profiling, order segment analysis, and US population benchmarking."
+      "description": "Decile is a customer intelligence platform for e-commerce brands: it unifies a brand's first-party transaction data (from Shopify and other connected sources), enriches customer profiles with demographic and lifestyle attributes, and turns them into analytics, audiences, and personas that can be activated in marketing channels. This plugin connects the Decile MCP server and adds skills for customer segment profiling, order segment analysis, and US population benchmarking."
     }
   ]
 }
