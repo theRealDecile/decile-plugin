@@ -1,7 +1,7 @@
 {
   "name": "decile",
   "displayName": "Decile",
-  "description": "Decile is a customer intelligence platform for e-commerce brands: it unifies a brand's first-party transaction data (from Shopify and other connected sources), enriches customer profiles with demographic and lifestyle attributes, and turns them into analytics, audiences, and personas that can be activated in marketing channels. This plugin connects the Decile MCP server and adds skills for customer segment profiling, order segment analysis, and US population benchmarking.",
+  "description": "Decile is an ecommerce customer intelligence platform. This connector lets you explore your store's performance and customers in plain language, putting analyst-level insights and recommendations in the hands of your team. Ask about revenue, orders, units, AOV, and profit; product and category performance; customer acquisition, retention, cohorts, and subscriptions. Deep dive into market basket analysis, sequential purchase flows, or compare your customers against US-population benchmarks. Describe a group of customers and get a profile of how they differ from your overall base across behavior, demographics, product preferences, and more. Turn that description into a defined customer segment and save it to your Decile account for reuse and activation.",
   "version": "0.1.0",
   "author": {
     "name": "Decile",
